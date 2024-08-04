@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jxl"
+version = "0.1"
+authors = [
+  { name="URenko" },
+]
+description = "Very simple python interface of libjxl tools for lossless JPEG XL conversion."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'pillow'
+]
+
+[project.urls]
+"Homepage" = "https://github.com/URenko/jxl.py"
+"Bug Tracker" = "https://github.com/URenko/jxl.py/issues"
